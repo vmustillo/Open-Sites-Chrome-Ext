@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Open Fav Sites",
+    "version": "1.0.0",
+    "description": "Clicking the icon will open all of my favorite websites",
+    "browser_action": {
+        "default_icon": "browser_tab.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
